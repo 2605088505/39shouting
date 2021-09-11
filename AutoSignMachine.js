@@ -11,7 +11,7 @@ var AutoSignMachine_Run = (argv) => {
     .help()
     .alias("h", "help")
     .locale("en")
-    .showHelpOnFail(true, "使用--help查看有效选项")
+    .showHelpOnFail(true, "使用--help查看 有效选项")
     .epilog("copyright 2020 LunnLew").argv;
 };
 module.exports = {
